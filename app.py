@@ -8,7 +8,7 @@ app = Flask(__name__)
 def get_db():
     return pymysql.connect(
         host="192.168.0.2",
-        user="steep992",
+        user="chillset",
         password="aB94$2##aHi$&u92&354$B#^#8",
         database="flask_app",
         cursorclass=pymysql.cursors.DictCursor
